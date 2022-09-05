@@ -1,0 +1,13 @@
+#!name=时间面板
+#!desc=自用时间面板
+
+[Panel]
+# macOS不生效
+# > timePanel
+# 显示运行时间及MitM等功能开关状态
+# 点击刷新为重载配置
+timePanel = script-name=timePanel,update-interval=1
+
+[Script]
+# 显示运行时间及MitM等功能开关状态
+timePanel = type=generic,script-path= https://raw.githubusercontent.com/Anotherhour/JS-script/main/Time.js,argument=icon=crown.fill&color=#f6c970
