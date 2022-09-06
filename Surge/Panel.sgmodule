@@ -11,7 +11,7 @@ TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 #节点检测
 ipcheck = script-name=ipcheck, title="节点详情", content="请刷新", style=info, update-interval=1
 
-#代理链路检测
+#代理链路检测(https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Sub-Store/Operator.js)
 策略面板 = script-name=代理链路检测,update-interval=21600
 
 # 刷新DNS
