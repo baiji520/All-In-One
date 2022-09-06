@@ -3,13 +3,16 @@
 
 [Panel]
 #Surge Pro标题,可显示启动时间,点击刷新为重载配置
-timePanel = script-name=timePanel,update-interval=1
+#timePanel = script-name=timePanel,update-interval=1
 
 #流量统计
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
 
 #节点检测
 ipcheck = script-name=ipcheck, title="节点详情", content="请刷新", style=info, update-interval=1
+
+#代理链路检测
+策略面板 = script-name=代理链路检测,update-interval=21600
 
 # 刷新DNS
 刷新DNS = script-name=刷新DNS,update-interval=1
@@ -32,13 +35,16 @@ dazn_check = script-name=dazn_check, title="Dazn 解锁检测", update-interval=
 
 [Script]
 #附带重载配置,Surge Pro标题,可显示启动时间,点击刷新为重载配置
-timePanel = type=generic,script-path= https://raw.githubusercontent.com/Anotherhour/JS-script/main/Time.js,argument=icon=crown.fill&color=#f6c970
+#timePanel = type=generic,script-path= https://raw.githubusercontent.com/Anotherhour/JS-script/main/Time.js,argument=icon=crown.fill&color=#f6c970
 
 #流量统计 点击以切换网络界面
 TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js ,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
 
 #节点检测
 ipcheck = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/LucaLin233/Luca_Conf/main/Surge/JS/ipcheck.js
+
+#代理链路检测
+代理链路检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, argument=title=代理链路检测&icon=network&color=#86abee
 
 # 刷新DNS
 刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js,argument=title=刷新DNS缓存&icon=repeat.circle.fill&color=#FF9F0A&server=false
