@@ -18,7 +18,7 @@ ipcheck = script-name=ipcheck, title="节点详情", content="请刷新", style=
 刷新DNS = script-name=刷新DNS,update-interval=1
 
 # 流媒体解锁检测
-Stream_all = script-name=Stream_all, title="流媒体解锁检测", content="请刷新", update-interval=-1
+#Stream_all = script-name=Stream_all, title="流媒体解锁检测", content="请刷新", update-interval=-1
 
 #奈飞
 nf_check = script-name=nf_check, title="Netflix 解锁检测", update-interval=1800
