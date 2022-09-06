@@ -29,4 +29,4 @@ WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 
 
 [MITM]
-hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net
+hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net
