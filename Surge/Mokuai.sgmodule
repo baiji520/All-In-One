@@ -21,9 +21,9 @@ PlaneFinder = type=http-response,pattern=^https?:\/\/app\-live\.planefinder\.net
 
 WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,script-update-interval=0
 
-1Blocker解锁会员1 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/文件/vsco.js
+1Blocker解锁会员1 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
-1Blocker解锁会员2 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/脚本/master/QuantumultX/File/vsco.js
+1Blocker解锁会员2 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
 百度网盘解锁倍速 = type=http-response,requires-body=1,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 
