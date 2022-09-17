@@ -24,7 +24,6 @@ obj = {
       "expires_date_pst": "2029-09-09 09:07:45 America/Los_Angeles",
       "web_order_line_item_id": "730000330755327",
       "is_trial_period": "false",
-      "is_in_intro_offer_period": "false",
     }],
     "adam_id" : 1470560916,
     "receipt_creation_date_pst" : "2022-09-09 06:36:09 America/Los_Angeles",
