@@ -11,7 +11,7 @@ obj = {
     "original_purchase_date" : "2022-09-17 04:27:28 Etc/GMT",
     "in_app" : [{
       "quantity": "1",
-      "product_id": "com.readdle.ReaddleDocsIPad.year",
+      "product_id": "com.readdle.ReaddleDocsIPad.pro",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2022-09-17 04:27:28 Etc/GMT",
@@ -43,6 +43,5 @@ obj = {
   "status" : 0,
   "environment" : "Production"
 }
-
 body = JSON.stringify(obj);
 $done({body});
