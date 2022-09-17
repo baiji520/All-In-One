@@ -39,6 +39,6 @@ obj = {
   },
   "status" : 0,
   "environment" : "Production"
-}
+};
 body = JSON.stringify(obj);
 $done({body});
