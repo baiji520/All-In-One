@@ -11,7 +11,7 @@ obj = {
     "original_purchase_date" : "2022-09-17 04:27:28 Etc/GMT",
     "in_app" : [{
       "quantity": "1",
-      "product_id": "com.readdle.ReaddleDocsIPad.pro",
+      "product_id": "com.readdle.ReaddleDocsIPad.plus",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2022-09-17 12:27:28 Etc/GMT",
@@ -23,9 +23,7 @@ obj = {
       "expires_date": "2029-09-09 17:07:45 Etc/GMT",
       "expires_date_ms": "4092647115000",
       "expires_date_pst": "2029-09-09 09:07:45 America/Los_Angeles",
-      "web_order_line_item_id": "730000330755327",
       "is_trial_period": "false",
-      "in_app_ownership_type": "PURCHASED"
     }],
     "adam_id" : 364901807,
     "receipt_creation_date_pst" : "2022-09-17 09:33:56 America/Los_Angeles",
