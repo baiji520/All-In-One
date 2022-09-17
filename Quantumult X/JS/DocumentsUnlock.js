@@ -2,7 +2,7 @@ var body = $response.body;
 var obj = JSON.parse(body); 
 
 obj = {
-    "receipt" : {
+  "receipt" : {
     "receipt_type" : "Production",
     "app_item_id" : 364901807,
     "receipt_creation_date" : "2022-09-17 16:33:56 Etc/GMT",
