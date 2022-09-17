@@ -10,7 +10,7 @@ obj = {
     "original_purchase_date" : "2022-09-09 11:40:07 Etc/GMT",
     "in_app" : [{
       "quantity": "1",
-      "product_id": "com.ziheng.OneBox.year",
+      "product_id": "com.ziheng.OneBox.pro",
       "transaction_id": "730000766600650",
       "original_transaction_id": "730000766600650",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
@@ -25,7 +25,6 @@ obj = {
       "web_order_line_item_id": "730000330755327",
       "is_trial_period": "false",
       "is_in_intro_offer_period": "false",
-      "in_app_ownership_type": "PURCHASED"
     }],
     "adam_id" : 1470560916,
     "receipt_creation_date_pst" : "2022-09-09 06:36:09 America/Los_Angeles",
