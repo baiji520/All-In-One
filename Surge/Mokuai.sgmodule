@@ -33,5 +33,7 @@ MateUnlock = type=http-response,pattern=^https:\/\/asia\.gikken\.co\/matesync\/s
 
 ShouJiSaoMiaoYiUnlock = type=http-response,pattern=^https:\/\/saomiao\.34354\.com\/api\/open\/member\/level,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/ShoujiSaoMiaoYiUnlock.js
 
+FileballUnlock = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/FileballUnlock.js
+
 [MITM]
 hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com
