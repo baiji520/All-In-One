@@ -1,7 +1,0 @@
-#!name=MovieBoxPro
-#!desc=本脚本完全免费，严禁商用！！！违者后果自负！！！
-[Script]
-MovieBoxProUnlock = type=http-response,pattern=^https:\/\/mbpapi\.shegu\.net\/api\/api_client,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/MovieBoxProUnlock.js
-
-[MITM]
-hostname = %APPEND% mbpapi.shegu.net
