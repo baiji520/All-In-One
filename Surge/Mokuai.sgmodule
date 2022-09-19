@@ -29,7 +29,9 @@ WPS会员 = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 
 流利说·阅读 = type=http-response,pattern=^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js,script-update-interval=0
 
-MovieBoxProUnlock = type=http-response,pattern=^https:\/\/mbpapi\.shegu\.net\/api\/api_client,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/MovieBoxProUnlock.js
+MateUnlock = type=http-response,pattern=^https:\/\/asia\.gikken\.co\/matesync\/subscription,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/MateUnlock.js
+
+ShouJiSaoMiaoYiUnlock = type=http-response,pattern=^https:\/\/saomiao\.34354\.com\/api\/open\/member\/level,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/ShoujiSaoMiaoYiUnlock.js
 
 [MITM]
-hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net
+hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com
