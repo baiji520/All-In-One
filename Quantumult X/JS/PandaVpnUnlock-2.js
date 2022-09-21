@@ -7,7 +7,11 @@ var obj = JSON.parse(body);
     "type": "BASE",
     "orderInfoList": [{
       "orderNumber": "10086",
-      "endAt": "2925-06-16T11:23:03Z",
+      "beginAt": "2022-09-21T01:27:50Z",
+      "endAt": "2077-07-07T12:17:13Z";",
+      "purchaseType": "NORMAL",
+      "deviceCount": 3,
+      "appending": true
     }]
   }, {
     "name": "叠加设备",
