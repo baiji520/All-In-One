@@ -6,12 +6,11 @@ const vip = '/info';
 
 if (url.indexOf(vip) != -1) {
     obj.data.expireAt = "2077-07-07T12:17:13Z";
-    obj.data.dueTime = "2077-07-07T12:17:13Z";
     obj.data.maxDeviceCount = 3;
-    obj.data.expireRemindType = "null",
+    obj.data.expireRemindType = "MANDATORY",
     obj.data.leftDays = 0;
     obj.data.role = "NORMAL";
-    obj.data.rewardPoints = 300;
+    obj.data.rewardPoints = 240;
     body = JSON.stringify(obj);
 }
 $done({body});
