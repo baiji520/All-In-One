@@ -1,7 +1,7 @@
 var body = $response.body;
 var obj = JSON.parse(body);
 
-{
+obj = {
   "data": [{
     "name": "BASE SERVICE",
     "type": "BASE",
@@ -23,5 +23,5 @@ var obj = JSON.parse(body);
     "orderInfoList": []
   }]
 }
-
+body = JSON.srtingify(obj);
 $done({body});
