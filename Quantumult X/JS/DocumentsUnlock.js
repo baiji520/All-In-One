@@ -23,8 +23,8 @@ obj = {
     "in_app": [{
       "quantity": "1",
       "product_id": "com.readdle.ReaddleDocsIPad.subscription.month10_allusers",
-      "transaction_id": "10086",
-      "original_transaction_id": "10086",
+      "transaction_id": "430001223657482",
+      "original_transaction_id": "430001223657482",
       "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
       "purchase_date_ms": "1637860065000",
       "purchase_date_pst": "2021-11-25 09:07:45 America/Los_Angeles",
@@ -43,8 +43,8 @@ obj = {
   "latest_receipt_info": [{
     "quantity": "1",
     "product_id": "com.readdle.ReaddleDocsIPad.subscription.month10_allusers",
-    "transaction_id": "10086",
-    "original_transaction_id": "10086",
+    "transaction_id": "430001223657482",
+    "original_transaction_id": "430001223657482",
     "purchase_date": "2021-11-25 17:07:45 Etc/GMT",
     "purchase_date_ms": "1637860065000",
     "purchase_date_pst": "2021-11-25 09:07:45 America/Los_Angeles",
