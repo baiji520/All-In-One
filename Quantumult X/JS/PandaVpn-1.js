@@ -11,6 +11,7 @@ if (url.indexOf(vip) != -1) {
     obj.data.expireRemindType = "null",
     obj.data.leftDays = 0;
     obj.data.role = "NORMAL";
+    obj.data.rewardPoints = 300;
     body = JSON.stringify(obj);
 }
 $done({body});
