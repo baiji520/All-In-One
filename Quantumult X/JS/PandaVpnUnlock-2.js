@@ -1,5 +1,5 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+var body = $response.body; 
+var obj = JSON.parse(body); 
 
 obj = {
   "data": [{
@@ -8,7 +8,7 @@ obj = {
     "orderInfoList": [{
       "orderNumber": "10086",
       "beginAt": "2022-09-21T01:27:50Z",
-      "endAt": "2077-07-07T12:17:13Z";",
+      "endAt": "2077-07-07T12:17:13Z",
       "purchaseType": "NORMAL",
       "deviceCount": 3,
       "appending": true
@@ -23,5 +23,5 @@ obj = {
     "orderInfoList": []
   }]
 }
-body = JSON.srtingify(obj);
+body = JSON.stringify(obj);
 $done({body});
