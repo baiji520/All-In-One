@@ -21,9 +21,9 @@ PlaneFinderUnlock = type=http-response,pattern=^https?:\/\/app\-live\.planefinde
 
 WPSUnlock = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js,script-update-interval=0
 
-1BlockerUnlock-1 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+#1BlockerUnlock-1 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
-1BlockerUnlock-2 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+#1BlockerUnlock-2 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 
 百度网盘Unlock = type=http-response,requires-body=1,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 
@@ -35,5 +35,17 @@ ShouJiSaoMiaoYiUnlock = type=http-response,pattern=^https:\/\/saomiao\.34354\.co
 
 FileballUnlock = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/FileballUnlock.js
 
+DraftsUnlock-1 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/DraftsUnlock.js
+
+DraftsUnlock-2 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/account_status?identifier?.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/DraftsUnlock.js
+
+#AptvUnlock = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/AptvUnlock.js
+
+QuarkVpnUnlock = type=http-response,pattern=^https:\/\/.+api\.italianbooray\.com\/Api\/(getAccountInfo|getVip|index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/QuarkVpnUnlock.js
+
+AlohaUnlock = type=http-response,pattern=^https:\/\/api\.alohaprofile\.com\/v1\/profile_info.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/AlohaUnlock.js
+
+HuoHuYingShiUnlock = type=http-response,pattern=http:\/\/huo\.hzzykj\.net\/\/app\/api\/MembershipInformation,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/HuoHuYingShiUnlock.js
+
 [MITM]
-hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com
+hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, api.revenuecat.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com, backend.getdrafts.com, *.italianbooray.com, api.alohaprofile.com, huo.hzzykj.net
