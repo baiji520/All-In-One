@@ -1,0 +1,19 @@
+#!name=自用模块
+#!desc=解锁会员与实用功能
+
+
+[Script]
+FileballUnlock = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/FileballUnlock.js
+
+AptvUnlock = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/AptvUnlock.js
+
+#1BlockerUnlock-1 = type=http-request,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+#1BlockerUnlock-2 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+
+#
+
+#
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, buy.itunes.apple.com
