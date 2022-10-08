@@ -25,19 +25,19 @@ WPSUnlock = type=http-response,pattern=^https?:\/\/.*?account\.wps\.(com|cn)(:\d
 
 流利说·阅读Unlock = type=http-response,pattern=^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js,script-update-interval=0
 
-MateUnlock = type=http-response,pattern=^https:\/\/asia\.gikken\.co\/matesync\/subscription,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/MateUnlock.js
+MateUnlock = type=http-response,pattern=^https:\/\/asia\.gikken\.co\/matesync\/subscription,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/MateUnlock.js
 
-ShouJiSaoMiaoYiUnlock = type=http-response,pattern=^https:\/\/saomiao\.34354\.com\/api\/open\/member\/level,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/ShoujiSaoMiaoYiUnlock.js
+ShouJiSaoMiaoYiUnlock = type=http-response,pattern=^https:\/\/saomiao\.34354\.com\/api\/open\/member\/level,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/ShoujiSaoMiaoYiUnlock.js
 
-DraftsUnlock-1 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/DraftsUnlock.js
+DraftsUnlock-1 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/verify_receipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/DraftsUnlock.js
 
-DraftsUnlock-2 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/account_status?identifier?.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/DraftsUnlock.js
+DraftsUnlock-2 = type=http-response,pattern=^https:\/\/backend\.getdrafts\.com\/api\/v1\/verification\/account_status?identifier?.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/DraftsUnlock.js
 
-QuarkVpnUnlock = type=http-response,pattern=^https:\/\/.+api\.italianbooray\.com\/Api\/(getAccountInfo|getVip|index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/QuarkVpnUnlock.js
+QuarkVpnUnlock = type=http-response,pattern=^https:\/\/.+api\.italianbooray\.com\/Api\/(getAccountInfo|getVip|index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/QuarkVpnUnlock.js
 
-AlohaUnlock = type=http-response,pattern=^https:\/\/api\.alohaprofile\.com\/v1\/profile_info.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/AlohaUnlock.js
+AlohaUnlock = type=http-response,pattern=^https:\/\/api\.alohaprofile\.com\/v1\/profile_info.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/AlohaUnlock.js
 
-HuoHuYingShiUnlock = type=http-response,pattern=http:\/\/huo\.hzzykj\.net\/\/app\/api\/MembershipInformation,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/HuoHuYingShiUnlock.js
+HuoHuYingShiUnlock = type=http-response,pattern=http:\/\/huo\.hzzykj\.net\/\/app\/api\/MembershipInformation,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/HuoHuYingShiUnlock.js
 
 [MITM]
 hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com, backend.getdrafts.com, *.italianbooray.com, api.alohaprofile.com, huo.hzzykj.net
