@@ -39,5 +39,7 @@ AlohaUnlock = type=http-response,pattern=^https:\/\/api\.alohaprofile\.com\/v1\/
 
 HuoHuYingShiUnlock = type=http-response,pattern=http:\/\/huo\.hzzykj\.net\/\/app\/api\/MembershipInformation,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/HuoHuYingShiUnlock.js
 
+XiaoBaiXueXiDaYinUnlock = type=http-response,pattern=^https:\/\/api\.xbxxhz\.com\/graphql,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/baiji520/All-In-One/main/QuantumultX/JS/XiaoBaiXueXiDaYinUnlock.js
+
 [MITM]
 hostname = %APPEND% www.xmind.cn, www.xmind.net, gateway.caixin.com, *.kuwo.cn, *.lrts.me, restore-access.indream.app, app-live.planefinder.net, account.wps.cn, *account.wps.com, pan.baidu.com, ap?.bili*i.com, ap?.bili*i.net, vira.llsapp.com, *.hdslb.com, mbpapi.shegu.net, asia.gikken.co, saomiao.34354.com, backend.getdrafts.com, *.italianbooray.com, api.alohaprofile.com, huo.hzzykj.net
