@@ -4,7 +4,7 @@
 
 [rewrite_local]
 ^https:\/\/api\.xbxxhz\.com\/graphql url script-response-body https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/JS/XiaoBaiXueXiDaYinUnlock.js
-^https:\/\/api\.xbxxhz\.com url script-response-body https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/Rewrite/XiaoBaiXueXiDaYinUnlock.conf
+^https:\/\/api\.xbxxhz\.com url script-response-body https://raw.githubusercontent.com/baiji520/All-In-One/main/Quantumult%20X/Rewrite/XiaoBaiXueXiDaYinUnlock.js
 
 [mitm] 
 hostname = api.xbxxhz.com
