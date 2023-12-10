@@ -1,4 +1,5 @@
 //自用小说以及漫画网站分流
+# > 小说
 host-suffix, yckceo.com, proxy   //源仓库
 host-suffix, yadudu.com, proxy   //E小说
 host-suffix, mayiwxw.com, proxy   //蚂蚁文学
@@ -17,10 +18,13 @@ host-suffix, ddxs.vip, proxy   //顶点小说-1
 host-suffix, biqu5200.net, proxy   //笔趣阁-3
 host-suffix, 33txs.com, proxy   //九桃小说
 host-suffix, bqgfff.com, proxy   //笔趣阁-5
+# > 漫画
+host-suffix, jmcomic.me, proxy   //禁漫天堂-1
+host-suffix, 18comic.org, proxy   //禁漫天堂-2
+host-suffix, 18comic.vip, proxy   //禁漫天堂-3
 host-suffix, rouman5.com, proxy   //肉漫屋
 host-suffix, picacomic.com, proxy   //哔咔漫画
 host-suffix, nhentai.net, proxy   //nHentai
-host-suffix, jmcomic.me, proxy   //禁漫天堂
 host-suffix, manhuagui.com, proxy   //漫画柜
 host-suffix, mangabz.com, proxy   //漫画BZ
 host-suffix, copymanga.tv, proxy   //拷贝漫画
