@@ -23,6 +23,8 @@ host-suffix, biqu5200.net, proxy   //笔趣阁-3
 host-suffix, 33txs.com, proxy   //九桃小说
 host-suffix, bqgfff.com, proxy   //笔趣阁-5
 host-suffix, bqgjj.cc, proxy   //笔趣阁-6
+host-suffix, yundu9.com, proxy   //云读小说网
+host-suffix, yunhai9.com, proxy   //云海小说网
 # > 漫画
 host-suffix, jmcomic.me, proxy   //禁漫天堂-1
 host-suffix, 18comic.org, proxy   //禁漫天堂-2
