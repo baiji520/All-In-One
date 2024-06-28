@@ -1,7 +1,15 @@
-.col-12.gg_link,
-.lantern.lantern_left.gg_link,
-.top_pic_ad.gg_link,
-.card,
-.card.mb-0.rounded-lg {
-  display: none !important
+div.col-12 {
+	display: none !important
+}
+
+div.lantern.lantern_left.gg_link {
+	display: none !important
+}
+
+div.top_pic_ad.gg_link {
+	display: none !important
+}
+
+div.top_pic_ad.gg_link {
+	display: none !important
 }
