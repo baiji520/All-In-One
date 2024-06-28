@@ -3,5 +3,5 @@
 .top_pic_ad.gg_link,
 .card,
 .card.mb-0.rounded-lg {
-  display: none;
+  display: none !important
 }
