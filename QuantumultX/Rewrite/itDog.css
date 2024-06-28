@@ -1,12 +1,8 @@
-div.col-12 {
+div.card {
 	display: none !important
 }
 
 div.lantern.lantern_left.gg_link {
-	display: none !important
-}
-
-div.top_pic_ad.gg_link {
 	display: none !important
 }
 
