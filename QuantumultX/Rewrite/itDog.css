@@ -1,1 +1,4 @@
-div.col-12, div.lantern.lantern_left.gg_link, div.top_pic_ad.gg_link { display: none !important; }
+div.col-12{display:none !important}
+div.lantern.lantern_left.gg_link{display:none !important}
+div.top_pic_ad.gg_link{display:none !important}
+div.top_pic_ad.gg_link{display:none !important}
