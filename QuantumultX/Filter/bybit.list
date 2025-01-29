@@ -1,0 +1,6 @@
+host-suffix, appsflyer.com, Proxy
+host-suffix, byabcde.com, Proxy
+host-suffix, bybdc6.com, Proxy
+host-suffix, byd3c3.com, Proxy
+user-agent, bybit_app*, Proxy
+host-keyword, bybit, Proxy
