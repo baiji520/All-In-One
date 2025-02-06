@@ -15,3 +15,4 @@ HOST-SUFFIX,saasexch.com,Binance
 HOST-SUFFIX,saasexch.io,Binance
 HOST-SUFFIX,mokexapp.io,Binance
 User-Agent, BNCAlamofire*, Binance
+User-Agent, Binance*, Binance
