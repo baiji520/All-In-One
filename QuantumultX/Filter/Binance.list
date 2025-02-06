@@ -2,6 +2,7 @@ HOST-SUFFIX,appsflayer.com,Binance
 HOST-SUFFIX,appsflayersdk.com,Binance
 HOST-SUFFIX,binance.cloud,Binance
 HOST-SUFFIX,binance.com,Binance
+HOST-SUFFIX,binance.info,Binance
 HOST-SUFFIX,binance.me,Binance
 HOST-SUFFIX,binancecnt.com,Binance
 HOST-SUFFIX,binancefuture.com,Binance
@@ -12,3 +13,4 @@ HOST-SUFFIX,bntrace.com,Binance
 HOST-SUFFIX,saasexch.cc,Binance
 HOST-SUFFIX,saasexch.com,Binance
 HOST-SUFFIX,saasexch.io,Binance
+HOST-SUFFIX,mokexapp.io,Binance
