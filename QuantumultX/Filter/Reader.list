@@ -36,7 +36,8 @@ host-suffix, picacomic.com, proxy   //哔咔漫画
 host-suffix, nhentai.net, proxy   //nHentai
 host-suffix, manhuagui.com, proxy   //漫画柜
 host-suffix, mangabz.com, proxy   //漫画BZ
-host-suffix, copymanga.tv, proxy   //拷贝漫画
+host-keyword, mangacopy, proxy   //拷贝漫画
+host-keyword, mangafuna, proxy   //拷贝漫画-PIC
 host-suffix, baozimh.com, proxy   //包子漫画
 host-suffix, baozicdn.com, proxy   //包子漫画-PIC
 host-suffix, manhuadb.com, proxy   //漫画DB
