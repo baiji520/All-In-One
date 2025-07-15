@@ -1,0 +1,126 @@
+{
+  "HK": [
+    {
+      "server": "84.17.57.129",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.hkg12.hk.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    }
+  ],
+  "SG": [
+    {
+      "server": "89.187.162.1",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.sin1.sg.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    },
+    {
+      "server": "sgp.proof.ovh.net",
+      "port": "5205",
+      "description": "OVH"
+    }
+  ],
+  "JP": [
+    {
+      "server": "89.187.160.1",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.tyo11.jp.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    }
+  ],
+  "US": [
+    {
+      "server": "185.152.67.2",
+      "port": "5201",
+      "description": "CDN77 Los Angeles"
+    },
+    {
+      "server": "speedtest.lax12.us.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb Los Angeles"
+    },
+    {
+      "server": "la.speedtest.clouvider.net",
+      "port": "5205",
+      "description": "Clouvider Los Angeles"
+    },
+    {
+      "server": "185.59.223.8",
+      "port": "5201",
+      "description": "CDN77 New York"
+    },
+    {
+      "server": "speedtest.nyc1.us.leaseweb.net ",
+      "port": "5205",
+      "description": "Leaseweb New York"
+    },
+    {
+      "server": "nyc.speedtest.clouvider.net",
+      "port": "5205",
+      "description": "Clouvider New York"
+    }
+  ],
+  "DE": [
+    {
+      "server": "185.102.219.93",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.fra1.de.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    },
+    {
+      "server": "fra.speedtest.clouvider.net",
+      "port": "5205",
+      "description": "Clouvider"
+    }
+  ],
+  "GB": [
+    {
+      "server": "185.59.221.51",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.lon1.uk.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    },
+    {
+      "server": "lon.speedtest.clouvider.net",
+      "port": "5205",
+      "description": "Clouvider"
+    }
+  ],
+  "FR": [
+    {
+      "server": "185.93.2.193",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "iperf.online.net",
+      "port": "5205",
+      "description": "Scaleway"
+    },
+    {
+      "server": "sbg.proof.ovh.net",
+      "port": "5205",
+      "description": "OVH"
+    }
+  ]
+}
