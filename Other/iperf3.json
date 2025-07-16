@@ -62,7 +62,7 @@
       "description": "CDN77 New York"
     },
     {
-      "server": "speedtest.nyc1.us.leaseweb.net ",
+      "server": "speedtest.nyc1.us.leaseweb.net",
       "port": "5205",
       "description": "Leaseweb New York"
     },
@@ -70,6 +70,16 @@
       "server": "nyc.speedtest.clouvider.net",
       "port": "5205",
       "description": "Clouvider New York"
+    },
+    {
+      "server": "84.17.41.11",
+      "port": "5201",
+      "description": "CDN77 Seattle"
+    },
+    {
+      "server": "speedtest.sea11.us.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb Seattle"
     }
   ],
   "DE": [
@@ -121,6 +131,50 @@
       "server": "sbg.proof.ovh.net",
       "port": "5205",
       "description": "OVH"
+    }
+  ],
+  "NL": [
+    {
+      "server": "185.102.218.1",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "ping-ams1.online.net",
+      "port": "5205",
+      "description": "Scaleway"
+    },
+    {
+      "server": "speedtest.ams1.nl.leaseweb.net",
+      "port": "5205",
+      "description": "Leaseweb"
+    },
+    {
+      "server": "speedtest.ams1.novogara.net",
+      "port": "5205",
+      "description": "Novogara"
+    },
+    {
+      "server": "iperf-ams-nl.eranium.net",
+      "port": "5205",
+      "description": "Eranium"
+    },
+    {
+      "server": "ams.speedtest.clouvider.net",
+      "port": "5205",
+      "description": "Clouvider"
+    }
+  ],
+  "SE": [
+    {
+      "server": "185.76.9.135",
+      "port": "5201",
+      "description": "CDN77"
+    },
+    {
+      "server": "speedtest.cityhost.se",
+      "port": "5205",
+      "description": "Cityhosting"
     }
   ]
 }
